@@ -14,5 +14,7 @@ int main() {
     numero1++;
     printf("Pós incremento: %d\n", numero1++);
     
-    
+    printf("Antes decremento: %d\n", numero1);
+    numero1--;
+    printf("Pós decremento: %d\n", numero1--);
 }
